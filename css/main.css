@@ -10,6 +10,8 @@ body{
     font-size: 16px;
 }
 
+/* Header styles */
+
 header{
     text-align: center;
     background-color: #87509c;
@@ -54,4 +56,31 @@ header button{
 
 header button:hover{
     border: 3px inset #c5673b;
+}
+
+/* Team styles */
+
+.team_container{
+    background-color: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+    padding: 50px;
+}
+
+.team_container hr{
+    width: 50px;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.team_container h1{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.team_container .portrait{
+    background-color: #696969;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
 }
