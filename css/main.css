@@ -69,12 +69,43 @@ header button:hover{
 
 .team_container hr{
     width: 50px;
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid #c8d9e5;
 }
 
 .team_container h1{
     text-transform: uppercase;
     margin: 0;
+}
+
+.team_container .team{
+    display: flex;
+}
+
+.team_container .team_item p{
+    margin: 0;
+}
+
+.team_container .team_item .name{
+    font-weight: 700;
+}
+
+.team_container .team_item .job{
+    color:  #55c2e9;
+    font-size: 0.8rem;
+}
+
+.team_container .team_item .social_media a{
+    background-color: #c8d9e5;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.team_container .team_item .description{
+    margin: 15px;
 }
 
 .team_container .portrait{
@@ -84,3 +115,9 @@ header button:hover{
     display: inline-block;
     border-radius: 50%;
 }
+
+.team_container p{
+    margin: 20px 0 50px 0;
+}
+
+/* Skills styles */
