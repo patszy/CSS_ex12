@@ -232,3 +232,81 @@ header button:hover{
     color: #ffdd99;
     margin-top: 3px;
 }
+
+/* Contact styles */
+
+.contact_container{
+    background-color: #3c5499;
+    padding: 100px 100px 50px;
+    text-align: center;
+}
+
+.contact_container h1{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.contact_container hr{
+    width: 50px;
+    border: 1px solid #273a71;
+}
+
+.contact_container form{
+    margin: 50px 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    flex-basis: 49%;
+}
+
+form input,
+form textarea,
+form input::placeholder,
+form textarea::placeholder{
+    background-color: #273a71;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+
+form textarea{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+form input[type="submit"]{
+    margin: 50px auto;
+    padding: 15px 50px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background-color: #55c2e9;
+    border-bottom: 5px solid #3d95b4;
+    font-weight: 700;
+}
+
+form input[type="submit"]:hover{
+    border: 5px inset #3d95b4;
+}
+
+/* Social-media styles */
+
+.social_media{
+    padding: 30px;
+    background-color: #304585;
+    text-align: center;
+}
+
+.social_media a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+.social_media a:hover{
+    background-color: #55c2e9;
+}
