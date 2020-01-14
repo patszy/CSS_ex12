@@ -295,18 +295,18 @@ form input[type="submit"]:hover{
 
 /* Social-media styles */
 
-.social_media{
+section.social_media{
     padding: 30px;
     background-color: #304585;
     text-align: center;
 }
 
-.social_media a{
+section.social_media a{
     text-decoration: none;
     color: white;
     padding: 30px;
 }
 
-.social_media a:hover{
+section.social_media a:hover{
     background-color: #55c2e9;
 }
