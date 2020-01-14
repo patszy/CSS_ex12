@@ -65,6 +65,7 @@ header button:hover{
     color: #3c4761;
     text-align: center;
     padding: 50px;
+    padding-bottom: 100px;
 }
 
 .team_container hr{
@@ -121,3 +122,54 @@ header button:hover{
 }
 
 /* Skills styles */
+
+.skills_container{
+    text-align: center;
+    background-color: white;
+    color: #3c4761;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills_container h1{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.skills_container > p{
+    margin: 50px;
+}
+
+.skills_container .skills{
+    display: flex;
+    justify-content: center;
+}
+
+.skills_container .skills .skills_item{
+    margin: 0 50px 0 50px;
+}
+
+.skills_container .skills .skills_item .percent{
+    font-size: 2rem;
+    font-weight: normal;
+    width: 130px;
+    line-height: 120px;
+    border: 5px solid #34b7eb;
+    border-radius: 50%;
+}
+
+.skills_container .skills .skills_item:nth-child(2) .percent{
+    border: 5px solid #dc4481;
+}
+
+.skills_container .skills .skills_item:nth-child(3) .percent{
+    border: 5px solid #17c5aa;
+}
+
+.skills_container .skills .skills_item:nth-child(4) .percent{
+    border: 5px solid #ec7d4f;
+}
+
+.skills_container .skills .skills_item p{
+    font-weight: 700;
+}
