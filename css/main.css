@@ -173,3 +173,62 @@ header button:hover{
 .skills_container .skills .skills_item p{
     font-weight: 700;
 }
+
+/* About syles */
+
+.about_container{
+    padding: 100px;
+    text-align: center;
+    background-color: #d74680;
+}
+
+.about_container h1{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about_container hr{
+    width: 50px;
+    border: 1px solid #b73c6d;
+}
+
+.about_container .about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about_container .about .about_item{
+    flex-basis: 50%;
+}
+
+.about_item{
+    display: flex;
+    text-align: left;
+}
+
+.about_item p{
+    margin: 0 0 15px 30px;
+}
+
+.about_item .data{
+    flex-basis: 80%;
+}
+
+.about_container .about .about_item .portrait{
+    height: 70px;
+    flex-basis: 70px;
+    border-radius: 50%;
+    background-color: #787878;
+}
+
+.about_item .name{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.about_item .job{
+    color: #ffdd99;
+    margin-top: 3px;
+}
